@@ -15,9 +15,6 @@ ul {
     list-style: none;
 }
 
-a {
-    color: inherit;
-}
 
 /* container */
 
@@ -108,3 +105,17 @@ a {
     margin-bottom: 10px;
 }
 
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(207, 185, 185);
+}
+
+hr{
+    color: rgb(0, 0, 0);
+    height: 1px;
+    width: 30%;
+    noshade
+}
