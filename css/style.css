@@ -37,8 +37,52 @@ a {
 /* debug */
 
 
+.bkg{
+    background-color: cadetblue;
+    width: 100%;
+    padding: 20px 0px;
+    border-top: solid 2px blue;
+    border-bottom: solid 2px chocolate;
+}
+
 .def{
     background-color: brown;
-    height: 80px;
+    height: 100px;
+    border: rgb(13, 219, 48) dotted 2px;
+    width: 100px;
 
+}
+
+
+/* layout */
+
+.flex{
+    display: flex;
+}
+
+.col30{
+    width: 30%;
+}
+
+.col50{
+    width: 50%;
+}
+
+.col70{
+    width: 70%;
+}
+
+
+
+/* header */
+
+.header-itm{
+    width: 50%;
+}
+
+
+/* plane */
+
+.card-plane{
+    justify-content: space-between;
 }
