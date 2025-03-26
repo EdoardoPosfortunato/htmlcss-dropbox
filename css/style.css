@@ -1,0 +1,44 @@
+/* format */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+/* container */
+
+.s-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.bg-container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* debug */
+
+
+.def{
+    background-color: brown;
+    height: 80px;
+
+}
