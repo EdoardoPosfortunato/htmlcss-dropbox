@@ -20,34 +20,6 @@ ul {
 }
 
 
-/* utilityes */
-
-.s-container {
-    width: 70%;
-    margin: 0 auto;
-    max-width: 1500px;
-    min-width: 1000px;
-}
-
-.bg-container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-    min-width: 800px;
-}
-
-.pt30 {
-    padding-top: 30px;
-}
-
-.btn {
-    background-color: #0061FE;
-    color: white;
-    padding: 5px 10px;
-    border-color: #0061FE;
-    font-size: 0.8rem;
-}
-
 /* debug */
 
 
@@ -66,43 +38,6 @@ ul {
     width: 100%;
 
 }
-
-
-/* layout */
-
-.flex {
-    display: flex;
-}
-
-.just-sb {
-    justify-content: space-between;
-}
-
-.flex-wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col15 {
-    width: 15%;
-}
-
-.col30 {
-    width: 30%;
-}
-
-.col50 {
-    width: 50%;
-}
-
-.col70 {
-    width: 70%;
-}
-
-/* .btn{
-    padding: 10px 30px;
-} */
-
 
 
 
@@ -136,9 +71,98 @@ hr {
 }
 
 
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+
+
 /* root */
 
 :root {}
+
+
+
+/* utilities */
+
+
+.flex {
+    display: flex;
+}
+
+.just-sb {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col10{
+    width: 10%;
+}
+
+.col15 {
+    width: 15%;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col70 {
+    width: 70%;
+}
+
+.py-30{
+    padding: 30px 0;
+}
+
+.s-container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1500px;
+    min-width: 1000px;
+}
+
+.bg-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 800px;
+}
+
+
+.btn {
+    background-color: #0061FE;
+    color: white;
+    padding: 5px 10px;
+    border-color: #0061FE;
+    font-size: 0.8rem;
+}
+
+
+/* fine utilities */
+
+/* main */
+
+section{
+    padding: 50px 0px;
+}
+
+*{
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+/* fine main */
 
 
 /* header */
@@ -190,12 +214,9 @@ hr {
 
 /* fine header */
 
-/* main */
 
 /* hero */
 .hero {
-    padding-top: 60px;
-    /* background: linear-gradient(to bottom, lightblue 70%, white 50%); */
     background: linear-gradient(to bottom, lightblue 70%, rgb(255, 255, 255) 50%);
     
 
@@ -239,9 +260,71 @@ hr {
 
 /* plans */
 
+.plan{
+    .card{
+        border: #c0c0c0 solid 1px;
+        
+        *{
+            padding: 5px 5px;
+        }
 
+        >*{
+            margin: 10px 20px;
+        }
+
+        h4{
+            text-align: center;
+            border-bottom: 1px #c0c0c0 solid;
+        }
+
+        .btn{
+            text-decoration: inherit;
+        }
+
+        .btn{
+            display: block;
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        i{
+            display: inline-block;
+            vertical-align: top;
+            /* padding: 0px; */
+        }
+
+        p{
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        hr{
+            padding: 0px;
+            border: none;
+            background-color: #c0c0c0;
+            height: 1px;
+        }
+
+        li{
+            list-style: none;
+            /* padding: 0px; */
+            margin-top: 0.1px;
+        }
+
+        .fa-check{
+            color: #0061FE;
+        }
+
+    }
+}
 
 /* fine plans */
+
+/* enterprise */
+
+
+/* fine enterprise */
 
 .plan{
 
